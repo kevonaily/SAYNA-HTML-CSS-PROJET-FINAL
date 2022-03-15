@@ -1,0 +1,52 @@
+header {
+  color: white;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  position: absolute;
+  background-color: red;
+  display: flex;
+  flex-flow: row;
+}
+header nav ul a {
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration: none;
+  margin: 5px;
+}
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+header nav {
+  margin-left: 990px;
+  padding: 50;
+}
+header nav img {
+  width: 30px;
+  height: 100%;
+}
+header li {
+  text-decoration: none;
+}
+header div {
+  display: flex;
+  flex-flow: row;
+  font-size: 15px;
+}
+header div img {
+  width: 50px;
+}
+
+footer {
+  background-color: grey;
+  position: relative;
+  margin-bottom: 0;
+  width: 100%;
+}
+footer img {
+  margin-top: 5px;
+  padding: 10px;
+  width: 15px;
+}

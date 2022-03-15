@@ -1,0 +1,26 @@
+body {
+  background-color: aqua;
+}
+.contenue {
+  background-color: blue;
+  margin-left: 50px;
+}
+.table div {
+  display: flex;
+  margin: 50px;
+  width: 300px;
+  border: skyblue solid;
+}
+
+.info {
+  display: flex;
+  flex-flow: row;
+  margin: 10px;
+  padding: 50px 300px;
+}
+.table div p {
+  padding: 10px;
+}
+.corps {
+  margin-top: 50px;
+}
