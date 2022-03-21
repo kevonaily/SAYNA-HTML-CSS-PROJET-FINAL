@@ -39,8 +39,77 @@
   width: 40%;
   padding: 30px;
 }
-.ssection div {
-  background-color: red;
+.ssection {
+  display: flex;
+}
+.selec1 {
+  width: 75%;
+  padding: 50px;
+}
+.select2 {
+  border-radius: 100%;
+}
+.select2 img {
+  padding-top: 10px;
+  border-radius: 100%;
+  border-top-right-radius: 100%;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+}
+.selec1 div h1 {
+  text-align: left;
+  font-size: 42px;
+}
+.selec1 div button {
+  background-color: gray;
+  height: 50px;
+  width: 150px;
+  margin-top: 10px;
+}
+#forme {
+  background-color: black;
+  height: 80px;
+  color: white;
+  text-align: center;
+  display: flex;
+  width: 50%;
+  margin-left: 380px;
+}
+#rezoso {
+  border-color: white;
+  border-top: 5px;
+  height: 50px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+#rezoso1 {
+  width: 45%;
+  height: 50px;
+  margin-left: 0;
+  font-size: 12px;
+  margin-top: 15px;
+}
+#forme ul {
+  display: flex;
+  list-style-type: none;
+  width: 45%;
+}
+#forme li {
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+}
+#forme img {
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border-color: white;
+  border-style: solid;
 }
 footer {
   margin-bottom: 0;
